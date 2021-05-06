@@ -105,3 +105,5 @@ dist
 
 # 11ty
 _site/
+gh-pages
+gh-pages.pub
