@@ -1,0 +1,23 @@
+{
+  "name": "brdunfield.github.io",
+  "version": "1.0.0",
+  "description": "Static Site / Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brdunfield/brdunfield.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brdunfield/brdunfield.github.io/issues"
+  },
+  "homepage": "https://github.com/brdunfield/brdunfield.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
