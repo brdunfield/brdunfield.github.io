@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+title: Blog
+permalink: /posts/
+---
+
+<h1>Blog Posts</h1>
+
+{% set postslist = collections.post %}
+{% include "layouts/list.njk" %}

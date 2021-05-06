@@ -4,8 +4,9 @@
   "description": "Static Site / Blog",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev" : "npx @11ty/eleventy --serve",
+    "css": "npx sass ./assets/styles/main.scss ./_site/assets/main.css",
+    "build": "npx sass ./assets/styles/main.scss ./_site/assets/main.css && npx @11ty/eleventy",
+    "dev": "sass --watch ./assets/styles/main.scss ./_site/assets/main.css & npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/brdunfield/brdunfield.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "sass": "^1.32.12"
   }
 }
