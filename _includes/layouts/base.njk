@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>{{ title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/main.css" />
   </head>
   <body>
-    {% include "layouts/partials/header.html" %}
+    {% include "layouts/partials/header.njk" %}
     {{ content | safe }}
   </body>
 </html>
