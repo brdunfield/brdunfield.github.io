@@ -1,5 +1,5 @@
 ---
-date: "2021-11-4"
+date: "2021-11-04"
 title: "A Quick Note about Tales of Arise"
 layout: layouts/post.njk
 tags: ["post"]
